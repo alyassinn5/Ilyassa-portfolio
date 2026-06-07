@@ -186,7 +186,7 @@ const $$ = (s,c=document)=>[...c.querySelectorAll(s)];
     const n=ni?ni.value.trim():'',em=ei?ei.value.trim():'';
     const s=(form.querySelector('#subject')||{value:''}).value.trim();
     const m=(form.querySelector('#message')||{value:''}).value.trim();
-    window.location.href=`mailto:wilsonjbrs444@icloud.com?subject=${encodeURIComponent(s)}&body=${encodeURIComponent(`Nom: ${n}\nEmail: ${em}\n\n${m}`)}`;
+    window.location.href=`mailto:alyassinn5@gmail.com?subject=${encodeURIComponent(s)}&body=${encodeURIComponent(`Nom: ${n}\nEmail: ${em}\n\n${m}`)}`;
     if(bt){bt.textContent='✓ Envoyé !';setTimeout(()=>bt.textContent='Envoyer le message',4000)}
   });
   [ni,ei].forEach(inp=>{if(!inp)return;inp.addEventListener('blur',ok);inp.addEventListener('input',()=>inp.classList.remove('err'))});

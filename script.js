@@ -162,7 +162,7 @@ const $$ = (s,c=document)=>[...c.querySelectorAll(s)];
   btn.addEventListener('click',()=>{
     const next=html.getAttribute('data-theme')==='dark'?'light':'dark';
     html.setAttribute('data-theme',next);
-    localStorage.setItem('wilson-theme',next);
+    localStorage.setItem('ilyassa-theme',next);
     if(icon)icon.textContent=next==='dark'?'🌙':'☀️';
   });
 })();
@@ -232,4 +232,5 @@ $$('a[href^="#"]').forEach(a=>{
 /* ══ 13. YEAR ════════════════════════════ */
 const yr=$('#year');if(yr)yr.textContent=new Date().getFullYear();
 
-console.log('%c WILSON Portfolio 2026 🚀 ','background:linear-gradient(135deg,#3b9eff,#30d5c2);color:#fff;padding:6px 14px;border-radius:20px;font-weight:800');
+console.log('%c ILYASSA Portfolio 2026 🚀 ','background:linear-gradient(135deg,#3b9eff,#30d5c2);color:#fff;padding:6px 14px;border-radius:20px;font-weight:800');
+
